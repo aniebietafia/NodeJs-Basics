@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 50vw;
+  height: 4rem;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+ul li {
+  margin: 0.7rem 1rem;
+}
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3rem;
+}
+ul li a:hover {
+  border-bottom: 1px solid #fff;
+  transition: all 1s linear;
+}
+
+body {
+  background: rgb(52, 54, 54);
+  height: 100vh;
+}
+main {
+  height: calc(100vh - 4rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 5rem;
+}

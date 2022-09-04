@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add User</title>
+    <link rel="stylesheet" href="/css/app.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/users">Products</a></li>
+          <li><a href="/add-users">Add User</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <form action="/add-user" method="post">
+        <div>
+          <label for="c-name">Customer Name:</label>
+          <input type="text" id="c-name" name="customer" />
+        </div>
+
+        <div>
+          <label for="product">Product Name</label>
+          <input type="text" id="product" name="product" />
+        </div>
+        <button type="submit">Send</button>
+      </form>
+    </main>
+  </body>
+</html>
